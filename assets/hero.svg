@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" role="img" aria-label="Logan Bresnahan — LLM integration engineer">
+  <defs>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#372725" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+    </radialGradient>
+
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .mono { font-family: ui-monospace, "JetBrains Mono", "SF Mono", "Fira Code", Menlo, Monaco, Consolas, monospace; }
+      .name { font-size: 78px; font-weight: 700; letter-spacing: -1px; }
+      .tag  { font-size: 34px; font-weight: 500; }
+      .sub  { font-size: 18px; font-style: italic; }
+      .meta { font-size: 14px; }
+      .code { font-size: 16px; }
+      .filename { font-size: 11px; letter-spacing: 1px; }
+      .palette-label { font-size: 11px; letter-spacing: 3px; }
+    </style>
+  </defs>
+
+  <!-- Background + vignette -->
+  <rect width="1280" height="560" fill="#372725"/>
+  <rect width="1280" height="560" fill="url(#vignette)"/>
+
+  <!-- LEFT COLUMN — typography -->
+  <g class="mono" transform="translate(96, 170)">
+    <text class="name" fill="#E6E1C4">logan bresnahan</text>
+    <text class="tag"  fill="#EF5D32" y="68" filter="url(#glow)">LLM integration engineer</text>
+    <text class="sub"  fill="#7DAF9C" y="118">Chicago, IL</text>
+    <text class="meta" fill="#6B4E32" y="188">Bridging the gap between LLMs and the tools developers use to build AI-powered applications.</text>
+  </g>
+
+  <!-- RIGHT COLUMN — code window -->
+  <g transform="translate(820, 132)">
+    <!-- window chrome -->
+    <rect x="0" y="0" width="440" height="296" rx="8" fill="#2a1d1b" stroke="#6B4E32" stroke-width="1" stroke-opacity="0.5"/>
+    <circle cx="20" cy="20" r="5" fill="#A40042"/>
+    <circle cx="38" cy="20" r="5" fill="#EFAC32"/>
+    <circle cx="56" cy="20" r="5" fill="#7DAF9C"/>
+    <text class="mono filename" x="220" y="24" text-anchor="middle" fill="#6B4E32">pharos/tools/find_references.gleam</text>
+
+    <!-- code body -->
+    <g class="mono code" transform="translate(24, 64)">
+      <text fill="#6B4E32">// expose LSP capabilities to the model</text>
+      <text y="32">
+        <tspan fill="#EF5D32">pub fn</tspan><tspan fill="#EFAC32"> find_references</tspan><tspan fill="#E6E1C4">(</tspan>
+      </text>
+      <text y="56" x="24">
+        <tspan fill="#7DAF9C">uri</tspan><tspan fill="#E6E1C4">: </tspan><tspan fill="#6C99BB">String</tspan><tspan fill="#E6E1C4">,</tspan>
+      </text>
+      <text y="80" x="24">
+        <tspan fill="#7DAF9C">pos</tspan><tspan fill="#E6E1C4">: </tspan><tspan fill="#6C99BB">Position</tspan><tspan fill="#E6E1C4">,</tspan>
+      </text>
+      <text y="104">
+        <tspan fill="#E6E1C4">) -&gt; </tspan><tspan fill="#6C99BB">Result</tspan><tspan fill="#E6E1C4">(</tspan><tspan fill="#6C99BB">List</tspan><tspan fill="#E6E1C4">(</tspan><tspan fill="#6C99BB">Location</tspan><tspan fill="#E6E1C4">), </tspan><tspan fill="#6C99BB">Error</tspan><tspan fill="#E6E1C4">) {</tspan>
+      </text>
+      <text y="128" x="24">
+        <tspan fill="#7DAF9C">lsp</tspan><tspan fill="#E6E1C4">.</tspan><tspan fill="#EFAC32">request</tspan><tspan fill="#E6E1C4">(</tspan>
+      </text>
+      <text y="152" x="48">
+        <tspan fill="#D9D762">"textDocument/references"</tspan><tspan fill="#E6E1C4">,</tspan>
+      </text>
+      <text y="176" x="48">
+        <tspan fill="#EFAC32">params</tspan><tspan fill="#E6E1C4">(uri, pos),</tspan>
+      </text>
+      <text y="200" x="24">
+        <tspan fill="#E6E1C4">)</tspan>
+      </text>
+      <text y="224" fill="#E6E1C4">}</text>
+    </g>
+  </g>
+
+  <!-- BOTTOM — palette swatches -->
+  <g transform="translate(96, 440)">
+    <g>
+      <rect x="0"   y="0" width="44" height="36" fill="#EF5D32"/>
+      <rect x="44"  y="0" width="44" height="36" fill="#EFAC32"/>
+      <rect x="88"  y="0" width="44" height="36" fill="#D9D762"/>
+      <rect x="132" y="0" width="44" height="36" fill="#7DAF9C"/>
+      <rect x="176" y="0" width="44" height="36" fill="#6C99BB"/>
+      <rect x="220" y="0" width="44" height="36" fill="#8856D2"/>
+      <rect x="264" y="0" width="44" height="36" fill="#A40042"/>
+    </g>
+  </g>
+</svg>

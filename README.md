@@ -4,7 +4,7 @@
 
 ## Projects
 
-### [pharos-mcp](https://github.com/LoganBresnahan/pharos-mcp) · Gleam, Elixir
+### [pharos-mcp](https://github.com/LoganBresnahan/pharos-mcp) · Gleam, Elixir, Erlang
 
 An MCP server that exposes Language Server Protocol (LSP) capabilities. Utilizes the BEAM (Erlang Virtual Machine) to supervise multiple LSP servers for a polyglot environment. Distributed as a single self-contained binary via [Burrito](https://github.com/burrito-elixir/burrito), shipped through GitHub Releases and npm.
 
@@ -31,6 +31,6 @@ The only theme I will use. A warm, brown-based, light-on-dark theme for the Zed 
 
 ---
 
-Working in: **Eixir · Ruby · TypeScript · Gleam · Erlang · Rust**
+Working in: **Eixir · Ruby · TypeScript · Rust · Gleam · Erlang**
 
 Reach me: [github](https://github.com/LoganBresnahan) · [loganbbres@gmail.com](mailto:loganbbres@gmail.com)

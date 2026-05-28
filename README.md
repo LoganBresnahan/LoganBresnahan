@@ -33,4 +33,4 @@ The only theme I will use. A warm, brown-based, light-on-dark theme for the Zed 
 
 Working in: **Eixir · Ruby · TypeScript · Rust · Gleam · Erlang**
 
-Reach me: [github](https://github.com/LoganBresnahan) · [loganbresnahan@proton.me](mailto:loganbresnahan@proton.me)
+Reach me: [loganbresnahan@proton.me](mailto:loganbresnahan@proton.me)

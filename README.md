@@ -6,7 +6,7 @@
 
 ### [pharos-mcp](https://github.com/LoganBresnahan/pharos-mcp) · Gleam, Elixir, Erlang
 
-An MCP server that exposes Language Server Protocol (LSP) capabilities. Utilizes the BEAM (Erlang Virtual Machine) to supervise multiple LSP servers for a polyglot environment. Distributed as a single self-contained binary via [Burrito](https://github.com/burrito-elixir/burrito), shipped through GitHub Releases and npm.
+An MCP server that exposes Language Server Protocol (LSP) capabilities. Utilizes the BEAM (Erlang Virtual Machine) to supervise multiple LSP servers for a polyglot environment. Distributed as a single self-contained binary via [Burrito](https://github.com/burrito-elixir/burrito), shipped through [GitHub Releases](https://github.com/LoganBresnahan/pharos-mcp/releases) and [npm](https://www.npmjs.com/package/pharos-mcp).
 
 ### [DeepSeek-Moby](https://github.com/LoganBresnahan/DeepSeek-Moby) · TypeScript, VS Code
 

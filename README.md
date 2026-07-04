@@ -18,7 +18,7 @@ Ruby bindings for [tiktoken-rs](https://github.com/zurawiki/tiktoken-rs) — *Ju
 
 ### [birds-of-paradise-zed](https://github.com/LoganBresnahan/birds-of-paradise-zed) · Zed
 
-The only theme I will use. A warm, brown-based, light-on-dark theme for the Zed Editor — the latest link in a chain that started with Joe Bergantine's original Coda theme. Published on the Zed extension registry.
+The only theme I will use. A warm, brown-based, light-on-dark theme for the Zed Editor — the latest link in a chain that started with Joe Bergantine's original Coda theme. [Published on the Zed extension registry](https://zed.dev/extensions/birds-of-paradise-theme).
 
 ---
 

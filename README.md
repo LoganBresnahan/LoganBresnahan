@@ -12,6 +12,10 @@ An MCP server that exposes Language Server Protocol (LSP) capabilities. Utilizes
 
 A fully agentic AI coding assistant for VS Code, inspired by and built for DeepSeek. Streams native tool calls; shell-command approval system with allow/blocklists; conversation forking; Tavily and SearXNG-backed web search, and so much more. OpenAI-compatible BYOM. [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=LoganBresnahan.deepseek-moby).
 
+### [captAInHook](https://github.com/LoganBresnahan/captAInHook) · C#, F# — *work in progress*
+
+A framework that injects deterministic or AI-powered subsystems into an agent's loop at fixed lifecycle seams — guaranteed execution at prompt submission, tool invocation, and result processing, instead of hoping the model calls a tool. A long-lived daemon with F# actor supervision, Native-AOT shims talking over a Unix socket, and a browser GUI. The rails run live today; payload handlers are underway.
+
 ### [j_r_r_token](https://github.com/LoganBresnahan/j_r_r_token) · Ruby + Rust
 
 Ruby bindings for [tiktoken-rs](https://github.com/zurawiki/tiktoken-rs) — *Just Ruby, Rust, & Tokens*. Ships pre-compiled native extensions, so end users skip the Rust toolchain. Published to [RubyGems](https://rubygems.org/gems/j_r_r_token).

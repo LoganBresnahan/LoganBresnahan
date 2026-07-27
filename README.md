@@ -12,6 +12,10 @@ An MCP server that exposes Language Server Protocol (LSP) capabilities. Utilizes
 
 A fully agentic AI coding assistant for VS Code, inspired by and built for DeepSeek. Streams native tool calls; shell-command approval system with allow/blocklists; conversation forking; Tavily and SearXNG-backed web search, and so much more. OpenAI-compatible BYOM. [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=LoganBresnahan.deepseek-moby).
 
+### [Carton-Fit](https://github.com/LoganBresnahan/Carton-Fit) · TypeScript, Electron, WebAssembly
+
+Drag in a CAD model, enter a carton, get the best packing orientation and how many ship per box. STEP/STL assemblies parsed off the UI thread by [OpenCascade](https://github.com/kovacsv/occt-import-js) compiled to WebAssembly; packing runs in a worker as pure TypeScript, so the shipped functions are unit-tested directly against hand-computed fixtures. Every result names its binding constraint — space or weight — and states heuristic counts as bounds rather than proofs. Windows and Linux installers via [GitHub Releases](https://github.com/LoganBresnahan/Carton-Fit/releases).
+
 ### [captAInHook](https://github.com/LoganBresnahan/captAInHook) · C#, F# — *work in progress*
 
 A framework that injects deterministic or AI-powered subsystems into an agent's loop at fixed lifecycle seams — guaranteed execution at prompt submission, tool invocation, and result processing, instead of hoping the model calls a tool. A long-lived daemon with F# actor supervision, Native-AOT shims talking over a Unix socket, and a browser GUI. The rails run live today; payload handlers are underway.
@@ -35,6 +39,6 @@ The only theme I will use. A warm, brown-based, light-on-dark theme for the Zed 
 
 ---
 
-Working in: **Eixir · Ruby · TypeScript · Rust · Gleam · Erlang**
+Working in: **Elixir · Ruby · TypeScript · Rust · Gleam · Erlang**
 
 Reach me: [loganbresnahan@proton.me](mailto:loganbresnahan@proton.me)

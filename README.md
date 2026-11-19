@@ -12,13 +12,13 @@ An MCP server that exposes Language Server Protocol (LSP) capabilities. Utilizes
 
 A fully agentic AI coding assistant for VS Code, inspired by and built for DeepSeek. Streams native tool calls; shell-command approval system with allow/blocklists; conversation forking; Tavily and SearXNG-backed web search, and so much more. OpenAI-compatible BYOM. [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=LoganBresnahan.deepseek-moby).
 
-### [Carton-Fit](https://github.com/LoganBresnahan/Carton-Fit) · TypeScript, Electron, WebAssembly
+### [geex](https://github.com/LoganBresnahan/geex) · Elixir, Rust
 
-Drag in a CAD model, enter a carton, get the best packing orientation and how many ship per box. STEP/STL assemblies parsed off the UI thread by [OpenCascade](https://github.com/kovacsv/occt-import-js) compiled to WebAssembly; packing runs in a worker as pure TypeScript, so the shipped functions are unit-tested directly against hand-computed fixtures. Every result names its binding constraint — space or weight — and states heuristic counts as bounds rather than proofs. Windows and Linux installers via [GitHub Releases](https://github.com/LoganBresnahan/Carton-Fit/releases).
+An LLM-native terminal text editor on the BEAM. Human keystrokes, agent edits over MCP, extensions, and remote peers all become the same command value, run through one dispatcher into one undo history — each tagged with who made it. Undo, deterministic replay, and provenance fall out of that single path instead of AI being bolted on as a parallel plugin. geex owns the world; the agent is bring-your-own. Tree-sitter highlighting through a Rust NIF ([tree_sitter_wasm](https://github.com/LoganBresnahan/tree_sitter_wasm)) that loads grammar `.wasm` at runtime, with grammars and themes installed from a sha256-pinned catalog. Self-updating Linux and macOS releases via [GitHub Releases](https://github.com/LoganBresnahan/geex/releases).
 
-### [captAInHook](https://github.com/LoganBresnahan/captAInHook) · C#, F# — *work in progress*
+### [captAInHook](https://github.com/LoganBresnahan/captAInHook) · C#, F#
 
-A framework that injects deterministic or AI-powered subsystems into an agent's loop at fixed lifecycle seams — guaranteed execution at prompt submission, tool invocation, and result processing, instead of hoping the model calls a tool. A long-lived daemon with F# actor supervision, Native-AOT shims talking over a Unix socket, and a browser GUI. The rails run live today; payload handlers are underway.
+A framework that injects deterministic or AI-powered subsystems into an agent's loop at fixed lifecycle seams — guaranteed execution at prompt submission, tool invocation, and result processing, instead of hoping the model calls a tool. A long-lived daemon with F# actor supervision, Native-AOT shims talking over a Unix socket, and a browser GUI. Released for Linux and macOS via [GitHub Releases](https://github.com/LoganBresnahan/captAInHook/releases) and dogfooded live on my own agent sessions.
 
 ### [j_r_r_token](https://github.com/LoganBresnahan/j_r_r_token) · Ruby + Rust
 

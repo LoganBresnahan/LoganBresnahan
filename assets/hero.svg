@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 496" role="img" aria-label="Logan Bresnahan — LLM integration engineer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 496" role="img" aria-label="Logan Bresnahan">
   <defs>
     <radialGradient id="vignette" cx="50%" cy="50%" r="75%">
       <stop offset="0%" stop-color="#372725" stop-opacity="0"/>
@@ -16,9 +16,8 @@
     <style>
       .mono { font-family: ui-monospace, "JetBrains Mono", "SF Mono", "Fira Code", Menlo, Monaco, Consolas, monospace; }
       .name { font-size: 78px; font-weight: 700; letter-spacing: -1px; }
-      .tag  { font-size: 34px; font-weight: 500; }
-      .sub  { font-size: 18px; font-style: italic; }
-      .meta { font-size: 16px; }
+      .sub  { font-size: 24px; font-style: italic; }
+      .meta { font-size: 19px; }
       .code { font-size: 16px; }
       .filename { font-size: 11px; letter-spacing: 1px; }
       .palette-label { font-size: 11px; letter-spacing: 3px; }
@@ -30,11 +29,10 @@
   <rect width="1280" height="496" fill="url(#vignette)"/>
 
   <!-- LEFT COLUMN — typography -->
-  <g class="mono" transform="translate(96, 146)">
+  <g class="mono" transform="translate(96, 170)">
     <text class="name" fill="#E6E1C4">Logan Bresnahan</text>
-    <text class="tag"  fill="#EF5D32" y="68">LLM integration engineer</text>
-    <text class="sub"  fill="#7DAF9C" y="118">Chicago, IL</text>
-    <text class="meta" fill="#6B4E32" y="160">// polyglot programmer passionate about imagining the future</text>
+    <text class="sub"  fill="#7DAF9C" y="62">Chicago, IL</text>
+    <text class="meta" fill="#6B4E32" y="110">// polyglot programmer passionate about imagining the future</text>
   </g>
 
   <!-- RIGHT COLUMN — code window -->

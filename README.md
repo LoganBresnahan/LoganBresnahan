@@ -1,4 +1,4 @@
-![Logan Bresnahan — LLM integration engineer](assets/hero.svg)
+![Logan Bresnahan](assets/hero.svg)
 
 ---
 
